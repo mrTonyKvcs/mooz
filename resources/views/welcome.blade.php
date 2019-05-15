@@ -37,24 +37,15 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                             <ul class="navbar-nav ml-auto mr-auto">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#about">about</a></li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#features">features</a></li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#screenshorts">screenshorts</a></li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#team">team</a></li>
-                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Blogs</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="dropdown-item" data-scroll href="#blogs">Recent Blogs</a></li>
-                                        <li class="nav-item"><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li class="nav-item"><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li class="nav-item"><a class="dropdown-item" href="blog-full-width.html">Blog Full Width</a></li>
-                                        <li class="nav-item"><a class="dropdown-item" href="blog-listing.html">blog Listing</a></li>
-                                        <li class="nav-item"><a class="dropdown-item" href="blog-single-post.html">Single Post</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#contact">contact </a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#az-uj-szarnysegeded">Az új szárnysegéded</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#mi-ez">Mi ez?</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#hogy-mukodik">Hogy működik?</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#nezz-bele">NÉZZ BELE!</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#gyakran-ismetelt-kerdesek">GY.I.K.</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#blog">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#kapcsolat">kapcsolat </a></li>
                             </ul>
-                            <a href="#" class="btn btn-light btn-rounded d-none d-lg-block">Buy Now</a>
+                            <a href="#letoltes" class="btn btn-light btn-rounded d-none d-lg-block nav-link">LETÖLTÉS</a>
                         </div>
                     </div>
                 </nav>
@@ -73,8 +64,8 @@
                                     élet értelmén merengenél valakivel? Mázlid van: pár kattintásra vagy attól, hogy azt
                                     csinálhasd, amihez kedved van, azzal, akivel biztosan élvezni is fogod. Ráadásul
                                     helybe visszük neked a társaságot.</p>
-                                    <a href="#" class="btn btn-light btn-xl btn-rounded mr-md-4 mb-4 mb-md-0 align-top">HOGY MŰKÖDIK?</a>
-                                    <a href="#" class="btn btn-outline-light btn-xl btn-rounded mb-4 mb-md-0 align-top">IDE VELE!</a>
+                                    <a href="#hogy-mukodik" class="btn btn-light btn-xl btn-rounded mr-md-4 mb-4 mb-md-0 align-top">HOGY MŰKÖDIK?</a>
+                                    <a href="#letoltes" class="btn btn-outline-light btn-xl btn-rounded mb-4 mb-md-0 align-top">IDE VELE!</a>
                                 </div>
                                 <div class="col-md-4 col-lg-3 col-xl-4 text-center text-md-left ml-auto wow fadeInRight" data-wow-duration=".2s" data-wow-delay=".1s">
                                     <img class="img-fluid" src="assets/images/mobile-1.png" alt="" />
@@ -86,7 +77,7 @@
             </section>
             <!-- End Section main banner -->
             <!-- Section App Feature -->
-            <section>
+            <section id="az-uj-szarnysegeded">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
@@ -144,7 +135,7 @@
             </section>
             <!-- End Section App Feature -->
             <!-- Section About -->
-            <section id="about" class="bg-primary">
+            <section id="mi-ez" class="bg-primary">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center text-white wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
@@ -182,7 +173,7 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
             <!-- End Section About -->
 
             <!-- Section Features -->
-            <section id="features">
+            <section id="hogy-mukodik">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center">
@@ -330,7 +321,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
             </section>
             <!-- End Section Intro -->
             <!-- Section App Screenshorts -->
-            <section id="screenshorts" class="bg-white">
+            <section id="nezz-bele" class="bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center">
@@ -424,7 +415,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
             <!-- TESTIMONIAL END -->
 
             <!-- Section FAQs -->
-            <section class="bg-light">
+            <section id="gyakran-ismetelt-kerdesek" class="bg-light">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center">
@@ -500,7 +491,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
             </section>
             <!-- End FAQs -->
             <!-- Section Download App -->
-            <section class="bg-white">
+            <section id="letoltes" class="bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center wow fadeIn" data-wow-duration=".4s" data-wow-delay=".2s">
@@ -533,7 +524,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
             </section>
             <!-- End CTA -->
             <!-- Section Blogs -->
-            <section id="blogs">
+            <section id="blog">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center">
@@ -612,7 +603,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
             </section>
             <!-- End Blogs -->
             <!-- Section Contact -->
-            <section id="contact" class="bg-dark text-white">
+            <section id="kapcsolat" class="bg-dark text-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp">
