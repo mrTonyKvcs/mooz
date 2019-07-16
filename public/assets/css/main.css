@@ -703,7 +703,7 @@ Buttons
 Banners styles
 */
 .main-banner {
-  background: url("../images/slide.jpg") no-repeat;
+  background: url("/images/home.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 9; }
@@ -721,7 +721,7 @@ Banners styles
     content: "";
     z-index: 1;
     opacity: 0.85;
-    background: #833ab4;
+    /*background: #833ab4;*/
     mix-blend-mode: multiply; }
 
 .video-placeholder {
@@ -745,9 +745,9 @@ Banners styles
   background-size: cover; }
 
 .gradient .main-banner:after {
-  background: #fc1e4f !important;
-  background: -webkit-gradient(30deg, #833ab4, #fc1e4f) !important;
-  background: linear-gradient(30deg, #833ab4, #fc1e4f) !important; }
+  /*background: #fc1e4f !important;*/
+  /*background: -webkit-gradient(30deg, #833ab4, #fc1e4f) !important;*/
+  /*background: linear-gradient(30deg, #833ab4, #fc1e4f) !important; }*/
 
 .content-table {
   position: relative;

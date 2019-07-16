@@ -29,7 +29,7 @@
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-sticky">
                     <div class="container">
-                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/images/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="/images/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -68,7 +68,7 @@
                                     <a href="#letoltes" class="btn btn-outline-light btn-xl btn-rounded mb-4 mb-md-0 align-top">IDE VELE!</a>
                                 </div>
                                 <div class="col-md-4 col-lg-3 col-xl-4 text-center text-md-left ml-auto wow fadeInRight" data-wow-duration=".2s" data-wow-delay=".1s">
-                                    <img class="img-fluid" src="assets/images/mobile-1.png" alt="" />
+                                    <img class="img-fluid" src="/images/home-mobile.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -149,10 +149,12 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                         <div class="col-lg-6 col-md-8 ml-md-auto mr-md-auto col-xl-5 text-center wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
                             <div class="row swiper-container">
                                 <div class="swiper-wrapper">
-                                    <div data-page-number="1" class="swiper-slide"><img src="assets/images/appscreen2.jpg" class="img-fluid" alt="" /></div>
-                                    <div data-page-number="2" class="swiper-slide"><img src="assets/images/appscreen1.jpg" class="img-fluid" alt="" /></div>
-                                    <div data-page-number="3" class="swiper-slide"><img src="assets/images/appscreen4.jpg" class="img-fluid" alt="" /></div>
-                                    <div data-page-number="4" class="swiper-slide"><img src="assets/images/appscreen3.jpg" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="1" class="swiper-slide"><img src="/images/mi-ez/1.png" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="2" class="swiper-slide"><img src="/images/mi-ez/2.png" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="3" class="swiper-slide"><img src="/images/mi-ez/3.png" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="4" class="swiper-slide"><img src="/images/mi-ez/4.png" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="4" class="swiper-slide"><img src="/images/mi-ez/5.png" class="img-fluid" alt="" /></div>
+                                    <div data-page-number="4" class="swiper-slide"><img src="/images/mi-ez/6.png" class="img-fluid" alt="" /></div>
                                 </div>
 
                             </div>
@@ -200,7 +202,7 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 text-center mb-xs-4 wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                            <p><img class="img-fluid" src="assets/images/mobile.png" alt="" /></p>
+                            <p><img class="img-fluid" src="/images/hogy-mukodik.png" alt="" /></p>
                         </div>
                         <div class="col-lg-4 text-center text-lg-left">
                             <div class="service-box icon-left mb-xs-4 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s">
@@ -275,7 +277,7 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 ml-auto ml-auto wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                            <img class="img-fluid" src="assets/images/phone.png" alt="" />
+                            <img class="img-fluid" src="/images/talcan-kinaljuk.png" alt="" />
                         </div>
                         <div class="col-lg-6 ml-auto mr-auto wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                             <h2 class="text-capitalize h1">Tálcán kínáljuk a társaságot</h2>
@@ -500,7 +502,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                             <p>A cipődet felhúzni több idő lesz, mint a MOOZ-t kiismerni. A letöltés pár perc, a regisztráció sem több ennél. Nézd meg, hol ismerkedsz ma!</p>
                             <p><a href="#"><img src="assets/images/google-play.png" class="img-fluid mr-md-3 mb-3" width="180" alt="" /></a>
                                 <a href="#"><img class="img-fluid mb-3" width="180" src="assets/images/app-store.png" alt="" /></a></p>
-                            <p class="mb-0 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s"><img class="img-fluid" src="assets/images/app-screen.png" alt="" /></p>
+                            <p class="mb-0 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s"><img class="img-fluid" src="/images/download.png" alt="" /></p>
                         </div>
                     </div>
 
