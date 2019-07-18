@@ -166,7 +166,7 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                             <p class="text-center text-lg-left">A kulcs a közelség, időben és térben. Ha match-elsz valakivel, jó eséllyel csak körül kell nézned, és már látod is. A találkozás pillanatáig vezetünk - és villámgyorsan elhozzuk azt.</p>
 
                             <div class="text-center text-lg-left">
-                                <p><a href="#" class="btn btn-cta btn-lg">MUTASD, HOGY MŰKÖDIK!</a></p>
+                                <p><a href="#hogy-mukodik" class="btn btn-cta btn-lg">MUTASD, HOGY MŰKÖDIK!</a></p>
                             </div>
                         </div>
                     </div>
@@ -291,7 +291,7 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                                 <p>A térképen láthatod, a városban ki merre jár és mit csinálna éppen - így nem kell vakon elindulnod, pontosan tudni fogod, hová érdemes menned, akár egy jó
 beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                             </div>
-                            <p><a href="#" class="btn btn-primary btn-lg">RÖGTÖN KIPRÓBÁLOM</a></p>
+                            <p><a href="#letoltes" class="btn btn-primary btn-lg">RÖGTÖN KIPRÓBÁLOM</a></p>
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                             <img class="img-fluid" src="assets/images/phone-r.png" alt="" />
                         </div>
                         <div class="col-lg-6 mr-auto text-left text-lg-right order-md-1 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                            <h2 class="text-capitalize h1">Ismerkedj élőben azzal, akire szükséged van</h2>
+                            <h2 class="text-capitalize h1">Ismerkedj élőben azzal, <br>akire szükséged van</h2>
                             <p>Ez nem egy online chat: a cél, hogy élőben és percek alatt társaságot találj. Látni fogod, ki, hol és mit keres - de csak akkor kezdhetsz ismerkedni, ha meg is érkeztél az adott helyre.</p>
                             <div class="service-xs-box icon-block icon-right mb-xs-4">
                                 <i class="lnr lnr-thumbs-up"></i>
@@ -316,7 +316,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                                 <i class="lnr lnr-magic-wand"></i>
                                 <p>Hagyd ki a felesleges lépéseket: a keresgélést, a félénk méregetést, a béna első mondatokat. Ugorj a közepébe magabiztosan - akivel találkozol, arról már tudni fogod, hogy szimpatikusnak talált, és a találkozás azonnali.</p>
                             </div>
-                            <p><a href="#" class="btn btn-primary btn-lg">VÁGJUNK BELE</a></p>
+                            <p><a href="#letoltes" class="btn btn-primary btn-lg">VÁGJUNK BELE</a></p>
                         </div>
                     </div>
                 </div>
@@ -334,29 +334,32 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
 
                     <div class="app-screenshots center-align owl-carousel owl-theme row">
                         <div class="card item shadow20 wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                            <img class="img-fluid" src="assets/images/appscreen2.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/1.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                            <img class="img-fluid" src="assets/images/appscreen1.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/2.png" alt="" />
                         </div>
 
                         <div class="card item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                            <img class="img-fluid" src="assets/images/appscreen3.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/3.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
-                            <img class="img-fluid" src="assets/images/appscreen4.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/4.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
-                            <img class="img-fluid" src="assets/images/appscreen5.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/5.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
-                            <img class="img-fluid" src="assets/images/appscreen6.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/6.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
-                            <img class="img-fluid" src="assets/images/appscreen7.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/7.png" alt="" />
                         </div>
                         <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
-                            <img class="img-fluid" src="assets/images/appscreen8.jpg" alt="" />
+                            <img class="img-fluid" src="/images/screenshot/8.png" alt="" />
+                        </div>
+                        <div class="card item wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
+                            <img class="img-fluid" src="/images/screenshot/9.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -364,56 +367,56 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
             <!-- End App Screenshorts -->
 
             <!-- Section TESTIMONIAL -->
-            <section class="parallax-fixed testimonial black-overlay" id="testimonial" data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 ml-auto mr-auto text-center text-white">
-                            <h2 class="text-uppercase mb-md-4">Our Testimonials</h2>
-                        </div>
-                    </div>
-                    <div class="owl-carousel">
-                        <div class="row">
-                            <div class="col-lg-10 mr-auto ml-auto text-white wow fadeIn" data-wow-duration=".4s" data-wow-delay=".2s">
-                                <div class="owl-carousel owl-theme owl-testimonials-full">
-                                    <div class="item text-center text-md-left">
-                                        <div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">
-                                            <img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">
-                                        </div>
-                                        <div class="testimonial-full">
-                                            <p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
-                                            <h5 class="mb-0 text-white">Elliot Doessimo</h5>
-                                            <p><small>CEO Google Inc.</small></p>
-                                        </div>
-                                    </div>
-                                    <!--/item-->
-                                    <div class="item text-center text-md-left">
-                                        <div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">
-                                            <img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">
-                                        </div>
-                                        <div class="testimonial-full">
-                                            <p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
-                                            <h5 class="mb-0 text-white">Elliot Doessimo</h5>
-                                            <p><small>CEO Google Inc.</small></p>
-                                        </div>
-                                    </div>
-                                    <!--/item-->
-                                    <div class="item text-center text-md-left">
-                                        <div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">
-                                            <img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">
-                                        </div>
-                                        <div class="testimonial-full">
-                                            <p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
-                                            <h5 class="mb-0 text-white">Elliot Doessimo</h5>
-                                            <p><small>CEO Google Inc.</small></p>
-                                        </div>
-                                    </div>
-                                    <!--/item-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {{--<section class="parallax-fixed testimonial black-overlay" id="testimonial" data-stellar-background-ratio="0.5">--}}
+                {{--<div class="container">--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-lg-8 ml-auto mr-auto text-center text-white">--}}
+                            {{--<h2 class="text-uppercase mb-md-4">Our Testimonials</h2>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="owl-carousel">--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-lg-10 mr-auto ml-auto text-white wow fadeIn" data-wow-duration=".4s" data-wow-delay=".2s">--}}
+                                {{--<div class="owl-carousel owl-theme owl-testimonials-full">--}}
+                                    {{--<div class="item text-center text-md-left">--}}
+                                        {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
+                                            {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
+                                        {{--</div>--}}
+                                        {{--<div class="testimonial-full">--}}
+                                            {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
+                                            {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
+                                            {{--<p><small>CEO Google Inc.</small></p>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<!--/item-->--}}
+                                    {{--<div class="item text-center text-md-left">--}}
+                                        {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
+                                            {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
+                                        {{--</div>--}}
+                                        {{--<div class="testimonial-full">--}}
+                                            {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
+                                            {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
+                                            {{--<p><small>CEO Google Inc.</small></p>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<!--/item-->--}}
+                                    {{--<div class="item text-center text-md-left">--}}
+                                        {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
+                                            {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
+                                        {{--</div>--}}
+                                        {{--<div class="testimonial-full">--}}
+                                            {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
+                                            {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
+                                            {{--<p><small>CEO Google Inc.</small></p>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<!--/item-->--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</section>--}}
             <!-- TESTIMONIAL END -->
 
             <!-- Section FAQs -->
@@ -519,7 +522,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                             <p>Írj nekünk egy emailt ide: <a href="mailto:">support@example.com</a> vagy írj ránk chaten <a href="tel:">+44 (35) 23 4567</a> segítünk lendületet venni!</p>
                         </div>
                         <div class="col-md-12 col-lg-3 ml-auto mr-auto mb-4 text-center text-lg-right">
-                            <a href="#" class="btn btn-cta btn-xl btn-rounded">purchase now</a>
+                            <a href="#kapcsolat" class="btn btn-cta btn-xl btn-rounded">Üzenet Küldése</a>
                         </div>
                     </div>
                 </div>
@@ -615,34 +618,19 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-12 col-xl-10 mr-auto ml-auto">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                                    <div class="address-block mb-2">
-                                        <i class="lnr lnr-map-marker"></i>
-                                        <p class="lead">A 586, Eiffel Tower, North Evenue,<br /> New York City, USA 58986</p>
-                                    </div>
-                                    <div class="address-block mb-2">
-                                        <i class="lnr lnr-inbox"></i>
-                                        <p class="lead">theme@domainname.com<br /> support@domainname.com
-                                        </p>
-                                    </div>
-                                    <div class="address-block">
-                                        <i class="lnr lnr-phone-handset"></i>
-                                        <p class="lead">+0 44 568 6589<br /> +0 44 365 4859</p>
-                                    </div>
-                                </div>
+                            <div class="row justify-content-center">
                                 <div class="col-md-6 col-lg-6 wow fadeInUp">
                                     <form id="contact-form" action="contact-form/contact.php" method="post">
                                         <div class="form-group">
-                                            <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Full Name">
+                                            <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Teljes Neve" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact_email" id="contact_email" class="form-control" placeholder="E-mail Address">
+                                            <input type="text" name="contact_email" id="contact_email" class="form-control" placeholder="E-mail Címe" required>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control" name="contact_message" id="contact_message" placeholder="Your Message" rows="5" cols="4"></textarea>
+                                            <textarea class="form-control" name="contact_message" id="contact_message" placeholder="Üzenete" rows="5" cols="4" required></textarea>
                                         </div>
-                                        <div class="d-flex justify-content-start mb-4"><input type="submit" name="contact_submit" class="btn btn-cta text-uppercase btn-xl" value="Submit"></div>
+                                        <div class="d-flex justify-content-start mb-4"><input type="submit" name="contact_submit" class="btn btn-cta text-uppercase col-lg-12 btn-xl" value="Üzenet Küldése"></div>
                                         <div id="contact-result"></div>
                                     </form>
                                 </div>
@@ -666,11 +654,11 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                                         <div class="row">
                                             <div class="col-12 col-lg-8 px-md-0 px-lg-2">
                                                 <div class="form-group">
-                                                    <input type="text" name="mc_email" required="required" class="form-control" placeholder="Email address...">
+                                                    <input type="text" name="mc_email" required="required" class="form-control" placeholder="E-mail Címe">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-4 px-md-0">
-                                                <input type="submit" name="mc_add" class="btn btn-cta btn-sm mb-4" value="Subscribe">
+                                                <input type="submit" name="mc_add" class="btn btn-cta btn-sm mb-4" value="Feliratkozás">
                                             </div>
                                         </div>
                                         <div class="text-center" id="mc-result"></div>
@@ -687,7 +675,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                 <div class="container">
                     <div class="row text-lg-left text-center">
                         <div class="col-12 col-lg-6">
-                            <span class="copyright">Copyright @ 2017 <a href="#">Zero App Landing Page.</a>   |   All right reserved. </span>
+                            <span class="copyright">Copyright @ 2019 <a href="https://pixelapps.eu/" target="_blank">Pixel Apps.</a>   |   Minden jog fenntartva. </span>
                         </div>
                         <div class="col-12 col-lg-6 text-center text-lg-right">
                             <ul class="list-inline my-auto social">
@@ -706,31 +694,6 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
         <!-- End Main Wrap -->
         <!-- back to top -->
         <a href="#" class="zero-scrolltop"><i class="fa fa-sort-asc" aria-hidden="true"></i></a>
-        <!-- Start Switcher -->
-        <div class="zero-switcher-wrapper">
-            <div class="zero-switcher">
-                <div class="zero-icon"><i class="fa fa-cog fa-spin fa-2x"></i></div>
-                <div class="zero-holder">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <a href="#" data-switchcolor="main.css" data-gradient="false" class="zero-styleswitch color01"> </a>
-                            <a href="#" data-switchcolor="main.css" data-gradient="true" class="zero-styleswitch color1"> </a>
-                            <a href="#" data-switchcolor="main2.css" data-gradient="false" class="zero-styleswitch color02"> </a>
-                            <a href="#" data-switchcolor="main2.css" data-gradient="true" class="zero-styleswitch color2"> </a>
-                            <a href="#" data-switchcolor="main3.css" data-gradient="false" class="zero-styleswitch color03"> </a>
-                            <a href="#" data-switchcolor="main3.css" data-gradient="true" class="zero-styleswitch color3"> </a>
-                            <a href="#" data-switchcolor="main4.css" data-gradient="false" class="zero-styleswitch color04"> </a>
-                            <a href="#" data-switchcolor="main4.css" data-gradient="true" class="zero-styleswitch color4"> </a>
-                            <a href="#" data-switchcolor="main5.css" data-gradient="false" class="zero-styleswitch color05"> </a>
-                            <a href="#" data-switchcolor="main5.css" data-gradient="true" class="zero-styleswitch color5"> </a>
-                            <a href="#" data-switchcolor="main6.css" data-gradient="false" class="zero-styleswitch color06"> </a>
-                            <a href="#" data-switchcolor="main6.css" data-gradient="true" class="zero-styleswitch color6"> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Switcher -->
         <!-- jQuery Plugins JS -->
         <script src="assets/plugins/dist/js/plugins.min.js"></script>
         <!-- Main JS -->
