@@ -29,7 +29,7 @@
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-sticky">
                     <div class="container">
-                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="/images/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="#"><img class="img-fluid" src="/images/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -229,42 +229,32 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
             <section class="bg-dark text-white">
                 <div class="container text-center">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="counter-block wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
                                 <i class="lnr lnr-download size-xl"></i>
-                                <h4 class="counter-title text-uppercase mt-2">App Download</h4>
+                                <h4 class="counter-title text-uppercase mt-2">App letöltés</h4>
                                 <div class="counter-number">
-                                    <div class="counter" data-from="0" data-to="5485">5,485</div>
+                                    <div class="counter" data-from="0" data-to="615">615</div>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="counter-block wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
                                 <i class="lnr lnr-smile size-xl"></i>
-                                <h4 class="counter-title text-uppercase mt-2">Happy Clients</h4>
+                                <h4 class="counter-title text-uppercase mt-2">Mach</h4>
                                 <div class="counter-number">
-                                    <div class="counter" data-from="0" data-to="5385">5,385</div>
+                                    <div class="counter" data-from="0" data-to="244">244</div>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col-md-3">
-                            <div class="counter-block wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                                <i class="lnr lnr-coffee-cup size-xl"></i>
-                                <h4 class="counter-title text-uppercase mt-2">Coffee Cups</h4>
-                                <div class="counter-number">
-                                    <div class="counter" data-from="0" data-to="1548">1,548</div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="counter-block wow fadeIn" data-wow-duration=".5s" data-wow-delay=".4s">
                                 <i class="lnr lnr-flag size-xl"></i>
-                                <h4 class="counter-title text-uppercase mt-2">Active Accounts</h4>
+                                <h4 class="counter-title text-uppercase mt-2">Helyek száma</h4>
                                 <div class="counter-number">
-                                    <div class="counter" data-from="0" data-to="4962">4,962</div>
+                                    <div class="counter" data-from="0" data-to="789.673">789.673</div>
                                 </div>
                             </div>
                         </div>
@@ -303,7 +293,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 ml-auto order-md-2 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                            <img class="img-fluid" src="assets/images/phone-r.png" alt="" />
+                            <img class="img-fluid" src="/images/ismerkedj.png" alt="" />
                         </div>
                         <div class="col-lg-6 mr-auto text-left text-lg-right order-md-1 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                             <h2 class="text-capitalize h1">Ismerkedj élőben azzal, <br>akire szükséged van</h2>
@@ -430,7 +420,7 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-6 mr-auto wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                            <img class="img-fluid" src="assets/images/phone.png" alt="" />
+                            <img class="img-fluid" src="/images/faq.png" alt="" />
                         </div>
                         <div class="col-lg-6 ml-auto wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                             <div class="accordion panel-group" id="faq">
@@ -463,8 +453,8 @@ igen.)</p>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse4" class="collapsed">Miért nem kapok match-eket?</a></div>
-                                    <div class="collapse" id="collapse4">
+                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse5" class="collapsed">Miért nem kapok match-eket?</a></div>
+                                    <div class="collapse" id="collapse5">
                                         <div class="card-body">
                                             <p>Valószínűleg elfelejtetted kitölteni a profilod, így leendő társaságod nem tudja, ki is vagy te. De az is lehet, hogy rosszul választottál programot: figylej, hogy ne
 ivópertnert keress egy felolvasóesten és ne társasozni akarj egy vad party közepén. :)</p>
@@ -472,8 +462,8 @@ ivópertnert keress egy felolvasóesten és ne társasozni akarj egy vad party k
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse4" class="collapsed">Miért nem tudok beszélgetni?</a></div>
-                                    <div class="collapse" id="collapse4">
+                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse6" class="collapsed">Miért nem tudok beszélgetni?</a></div>
+                                    <div class="collapse" id="collapse6">
                                         <div class="card-body">
                                             <p>Minden bizonnyal túl messze vagy. Ha úgy látod, szimpatikus egymberek gyúltek
 össze valahol, oda is kell menned ahhoz, hogy elkezdhess beszélgetni.</p>
@@ -481,8 +471,8 @@ ivópertnert keress egy felolvasóesten és ne társasozni akarj egy vad party k
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse4" class="collapsed">Mi van, ha valaki bunkó velem?</a></div>
-                                    <div class="collapse" id="collapse4">
+                                    <div class="card-header"><a data-toggle="collapse" data-parent="#faq" aria-expanded="false" href="#collapse7" class="collapsed">Mi van, ha valaki bunkó velem?</a></div>
+                                    <div class="collapse" id="collapse7">
                                         <div class="card-body">
                                             <p>Nem gyűjtünk neked stalkereket: egyszerűen letilthatod az illetőt, és jelentheted
 nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is üzenhet neked.</p>
@@ -519,7 +509,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
                     <div class="row align-items-center">
                         <div class="col-md-12 col-lg-9 col-xl-8 mr-auto text-center text-lg-left">
                             <h4 class="text-white">Megakadtál?</h4>
-                            <p>Írj nekünk egy emailt ide: <a href="mailto:">support@example.com</a> vagy írj ránk chaten <a href="tel:">+44 (35) 23 4567</a> segítünk lendületet venni!</p>
+                            <p>Írj nekünk egy emailt ide: <a href="mailto: info@moozapp.com">info@moozapp.com</a >vagy írj ránk <a href="https://www.facebook.com/moozforzoom" target="_blank">Facebookon chaten</a> és segítünk lendületet venni!</p>
                         </div>
                         <div class="col-md-12 col-lg-3 ml-auto mr-auto mb-4 text-center text-lg-right">
                             <a href="#kapcsolat" class="btn btn-cta btn-xl btn-rounded">Üzenet Küldése</a>
@@ -642,7 +632,7 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
             </section>
             <!-- End Contact -->
             <!-- Section Newsletter -->
-            <section class="bg-newsletter text-white">
+            <section class="text-white" style="background: #000;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 ml-auto mr-auto wow fadeInUp text-center text-white">
@@ -671,20 +661,27 @@ nekünk, így többé nem fogja látni, hol vagy és mit csinálsz, és nem is �
             </section>
             <!-- End Newsletter -->
             <!-- Footer -->
-            <div class="footer">
+            <div class="footer pb-0">
                 <div class="container">
                     <div class="row text-lg-left text-center">
-                        <div class="col-12 col-lg-6">
-                            <span class="copyright">Copyright @ 2019 <a href="https://pixelapps.eu/" target="_blank">Pixel Apps.</a>   |   Minden jog fenntartva. </span>
+                        <div class="col-12 col-lg-8 d-flex align-items-center pb-3">
+                            <div class="mr-5">
+                                <a href="" class="mr-3">ÁSZF</a>
+                                <a href="/pdfs/gdpr.pdf" target="_blank">GDPR</a>
+                            </div>
                         </div>
-                        <div class="col-12 col-lg-6 text-center text-lg-right">
+                        <div class="col-12 col-lg-4 text-center text-lg-right pb-3">
                             <ul class="list-inline my-auto social">
-                                <li class="list-inline-item pr-2"><a href="#" class="facebook" title="facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item pr-2"><a href="#" class="twitter" title="twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item pr-2"><a href="#" class="dribbble" title="dribbble"><i class="fa fa-dribbble"></i></a></li>
-                                <li class="list-inline-item pr-2"><a href="#" class="pinterest" title="pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li class="pr-0 list-inline-item pr-0"><a href="#" class="linkedin" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item pr-2"><a href="https://www.facebook.com/moozforzoom" class="facebook" title="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item pr-2"><a href="https://www.instagram.com/mooz_forzoom/ " class="instagram" title="instagram" style="background-color: #C82C8D;" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-light">
+                    <div class="container">
+                        <div class="col-12 text-center">
+                            <span class="copyright">Copyright @ 2019 <a href="https://pixelapps.eu/" target="_blank">Pixel Apps.</a>   |   Minden jog fenntartva. </span>
                         </div>
                     </div>
                 </div>
