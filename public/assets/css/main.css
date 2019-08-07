@@ -27,6 +27,11 @@ fonts styles
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800");
+
+.icon {
+    height: 28px;
+}
+
                                                                                           /*
 basic styles
 */
@@ -704,7 +709,7 @@ Buttons
 Banners styles
 */
 .main-banner {
-  background: url("/images/home.png") no-repeat;
+  background: url("/images/home2.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 9; }
@@ -722,7 +727,7 @@ Banners styles
     content: "";
     z-index: 1;
     opacity: 0.85;
-    background: #833ab4;
+    /*background: #833ab4;*/
     mix-blend-mode: multiply; }
 
 .video-placeholder {
@@ -745,10 +750,10 @@ Banners styles
   background: url("../images/slide4.jpg") no-repeat;
   background-size: cover; }
 
-.gradient .main-banner:after {
-  background: #fc1e4f !important;
-  background: -webkit-gradient(30deg, #833ab4, #fc1e4f) !important;
-  background: linear-gradient(30deg, #833ab4, #fc1e4f) !important; }
+/*.gradient .main-banner:after {*/
+  /*background: #fc1e4f !important;*/
+  /*background: -webkit-gradient(30deg, #833ab4, #fc1e4f) !important;*/
+  /*background: linear-gradient(30deg, #833ab4, #fc1e4f) !important; }*/
 
 .content-table {
   position: relative;
@@ -778,6 +783,10 @@ Banners styles
   background: -webkit-gradient(linear, left top, left bottom, from(#fc1e4f), to(#833ab4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+  .icon-block img {
+      width: 40px;
+  }
 
 .service-box i {
   font-size: 28px;

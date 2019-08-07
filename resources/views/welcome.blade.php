@@ -88,21 +88,24 @@
                     <div class="row">
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
                             <div class="icon-block mb-md-5 mb-sm-4">
-                                <i class="lnr lnr-diamond"></i>
+                                {{--<i class="lnr lnr-diamond"></i>--}}
+                                <img src="/images/icons/pofonegyszeru.svg" alt="">
                                 <h4>Pofonegyszerű</h4>
                                 <p>Az appot úgy terveztük, hogy bárki ösztönösen használhassa - képtelenség eltévedni benne.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
                             <div class="icon-block mb-md-5 mb-sm-4">
-                                <i class="lnr lnr-enter-down"></i>
+                                {{--<i class="lnr lnr-enter-down"></i>--}}
+                                <img src="/images/icons/megmutatjuk.svg" alt="">
                                 <h4>Megmutatjuk, hová indulj</h4>
                                 <p>Pontosan és azonnal látni fogod, a városban éppen hol van pont neked való társaság és esemény.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
                             <div class="icon-block mb-md-5 mb-sm-4">
-                                <i class="lnr lnr-rocket"></i>
+                                {{--<i class="lnr lnr-rocket"></i>--}}
+                                <img src="/images/icons/valosidoben.svg" alt="">
                                 <h4>Valós időben</h4>
                                 <p>Nem azt látod majd, hány embert &quot;érdekel&quot; egy hely vagy rendezvény - hanem hogy éppen akkor kik vannak ott.</p>
                             </div>
@@ -111,21 +114,24 @@
                     <div class="row">
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".4s">
                             <div class="icon-block mb-md-0 mb-sm-4">
-                                <i class="lnr lnr-cog"></i>
+                                {{--<i class="lnr lnr-cog"></i>--}}
+                                <img src="/images/icons/nincstobb.svg" alt="">
                                 <h4>Nincs több félreértés</h4>
                                 <p>Unod a homályos megfogalmazásokat, a kétértelmű szmájlikat? Mi is. Itt mindenki szándékai tűpontosak.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".6s" data-wow-delay=".5s">
                             <div class="icon-block mb-md-0 mb-sm-4">
-                                <i class="lnr lnr-laptop-phone"></i>
+                                {{--<i class="lnr lnr-laptop-phone"></i>--}}
+                                <img src="/images/icons/szohozjtt.svg" alt="">
                                 <h4>Szóhoz juttatunk</h4>
                                 <p>Match-eltél, de hirtelen nincs egy jó dumád se? Nyugi: nekünk van, és azonnal válogathatsz közülük.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".7s" data-wow-delay=".6s">
                             <div class="icon-block">
-                                <i class="lnr lnr-alarm"></i>
+                                {{--<i class="lnr lnr-alarm"></i>--}}
+                                <img src="/images/icons/sohatobbe.svg" alt="">
                                 <h4>Soha többé ghosting</h4>
                                 <p>Nincs hitegetés, nincs eltűnés: csak annak mutatunk be, aki szimpatikus lehet és ott is van, így azonnal kiderül, bírjátok-e egymást.</p>
                             </div>
@@ -186,18 +192,27 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                     <div class="row align-items-center">
                         <div class="col-lg-4 text-center text-lg-right">
                             <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                                <i class="lnr lnr-thumbs-up"></i>
-                                <h4 class="m-0 mb-2">Villámgyors regisztráció</h4>
+                                {{--<i class="lnr lnr-thumbs-up"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row">
+                                    <img class="icon" src="/images/icons/villamgyors.svg" alt="">
+                                    <h4 class="m-0 mb-2">Villámgyors regisztráció</h4>
+                                </div>
                                 <p>Add meg az alapvető adataid, lépj be akár Facebookkal, tölts fel néhány képet és mondd el, mit kell rólad tudni - ennyi az egész.</p>
                             </div>
                             <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s">
-                                <i class="lnr lnr-mic"></i>
-                                <h4 class="m-0 mb-2">Hová érdemes menned?</h4>
+                                {{--<i class="lnr lnr-mic"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row">
+                                    <img class="icon" src="/images/icons/hovaerdemes.svg" alt="">
+                                    <h4 class="m-0 mb-2">Hová érdemes menned?</h4>
+                                </div>
                                 <p>Azonnal látni is fogod, hol vannak épp abban a pillanatban, akik hozzád hasonló programot keresnek - és hogy szimpatikusak-e neked.</p>
                             </div>
                             <div class="service-box icon-right mb-xs-4 wow zoomIn" data-wow-duration=".6s" data-wow-delay=".4s">
-                                <i class="lnr lnr-text-format"></i>
-                                <h4 class="m-0 mb-2">Egyszerű, informatív profilok</h4>
+                                {{--<i class="lnr lnr-text-format"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row">
+                                    <img class="icon" src="/images/icons/egyszeru.svg" alt="">
+                                    <h4 class="m-0 mb-2">Egyszerű, informatív profilok</h4>
+                                </div>
                                 <p>Egy elkapott pillantásnál sokkal többet tudhatsz így meg - mégsem telik több időbe felmérni azt, akit leszólítanál.</p>
                             </div>
                         </div>
@@ -206,18 +221,27 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                         </div>
                         <div class="col-lg-4 text-center text-lg-left">
                             <div class="service-box icon-left mb-xs-4 wow zoomIn" data-wow-duration=".4s" data-wow-delay=".2s">
-                                <i class="lnr lnr-magic-wand"></i>
-                                <h4 class="m-0 mb-2">A match-ről étresítést kapsz</h4>
+                                {{--<i class="lnr lnr-magic-wand"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row-reverse">
+                                    <img class="icon" src="/images/icons/amachrol.svg" alt="">
+                                    <h4 class="m-0 mb-2">A match-ről étresítést kapsz</h4>
+                                </div>
                                 <p>Ha valakivel kölcsönös a szimpátia, azonnal szólunk, így akár másodpercek alatt egy beszélgetés közepén találhatod magad - ott helyben.</p>
                             </div>
                             <div class="service-box icon-left mb-xs-4 wow zoomIn" data-wow-duration=".6s" data-wow-delay=".4s">
-                                <i class="lnr lnr-lock"></i>
-                                <h4 class="m-0 mb-2">Az indulásban is segítünk</h4>
+                                {{--<i class="lnr lnr-lock"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row-reverse">
+                                    <img class="icon" src="/images/icons/azindulasban.svg" alt="">
+                                    <h4 class="m-0 mb-2">Az indulásban is segítünk</h4>
+                                </div>
                                 <p>Megtörnéd a jeget? Kapsz hozzá egy csákányt: egy sor kipróbált beszélgetésindítóval beindítjuk a fantáziádat.</p>
                             </div>
                             <div class="service-box icon-left wow zoomIn" data-wow-duration=".8s" data-wow-delay=".6s">
-                                <i class="lnr lnr-coffee-cup"></i>
-                                <h4 class="m-0 mb-2">Rögtön kiderül</h4>
+                                {{--<i class="lnr lnr-coffee-cup"></i>--}}
+                                <div class="d-flex flex-column flex-lg-row-reverse justify-content-lg-between">
+                                    <img class="icon" src="/images/icons/rogton.svg" alt="">
+                                    <h4 class="m-0 mb-2">Rögtön kiderül</h4>
+                                </div>
                                 <p>Nem kell hetekig csetelned valakivel, hogy kiderüljön, megéri-e az időd: az ismerkedést úgy tesszükk könnyűvé, hogy kiiktatjuk a felesleges köröket.</p>
                             </div>
                         </div>
@@ -272,12 +296,14 @@ még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                         <div class="col-lg-6 ml-auto mr-auto wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                             <h2 class="text-capitalize h1">Tálcán kínáljuk a társaságot</h2>
                             <p>Az appot elképesztően egyszerű használni. Belépsz a Facebook fiókoddal vagy telefonszámoddal, bekapcsolod a GPS-t, kitöltöd a profilod - és már láthatod is, aznap hová érdemes bulizni, ismerkedni vagy épp barátkozni indulni, mert látod, a többi felhasználó éppen merre jár és mit keres.</p>
-                            <div class="service-xs-box icon-block icon-left mb-xs-4">
-                                <i class="lnr lnr-thumbs-up"></i>
+                            <div class="service-xs-box icon-block icon-left mb-xs-4 d-flex">
+                                {{--<i class="lnr lnr-thumbs-up"></i>--}}
+                                <img class="icon mr-2" src="/images/icons/amitkeresel.svg" alt="">
                                 <p>Amit keresel, akit keresel - ahol vagy.</p>
                             </div>
-                            <div class="service-xs-box icon-block icon-left mb-xs-4">
-                                <i class="lnr lnr-magic-wand"></i>
+                            <div class="service-xs-box icon-block icon-left mb-xs-4 d-flex">
+                                {{--<i class="lnr lnr-magic-wand"></i>--}}
+                                <img class="icon mr-2" src="/images/icons/aterkepen.svg" alt="">
                                 <p>A térképen láthatod, a városban ki merre jár és mit csinálna éppen - így nem kell vakon elindulnod, pontosan tudni fogod, hová érdemes menned, akár egy jó
 beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                             </div>
@@ -298,12 +324,14 @@ beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                         <div class="col-lg-6 mr-auto text-left text-lg-right order-md-1 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
                             <h2 class="text-capitalize h1">Ismerkedj élőben azzal, <br>akire szükséged van</h2>
                             <p>Ez nem egy online chat: a cél, hogy élőben és percek alatt társaságot találj. Látni fogod, ki, hol és mit keres - de csak akkor kezdhetsz ismerkedni, ha meg is érkeztél az adott helyre.</p>
-                            <div class="service-xs-box icon-block icon-right mb-xs-4">
-                                <i class="lnr lnr-thumbs-up"></i>
+                            <div class="service-xs-box icon-block icon-right mb-xs-4 d-flex">
+                                {{--<i class="lnr lnr-thumbs-up"></i>--}}
+                                <img class="icon mr-2" src="/images/icons/ismerkedjazzal.svg" alt="">
                                 <p>Ismerkedj azzal, aki ott is van</p>
                             </div>
-                            <div class="service-xs-box icon-block icon-right mb-xs-4">
-                                <i class="lnr lnr-magic-wand"></i>
+                            <div class="service-xs-box icon-block icon-right mb-xs-4 d-flex">
+                                {{--<i class="lnr lnr-magic-wand"></i>--}}
+                                <img class="icon mr-2" src="/images/icons/hagydki.svg" alt="">
                                 <p>Hagyd ki a felesleges lépéseket: a keresgélést, a félénk méregetést, a béna első mondatokat. Ugorj a közepébe magabiztosan - akivel találkozol, arról már tudni fogod, hogy szimpatikusnak talált, és a találkozás azonnali.</p>
                             </div>
                             <p><a href="#letoltes" class="btn btn-primary btn-lg">VÁGJUNK BELE</a></p>
