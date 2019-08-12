@@ -12,9 +12,28 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
 
-Auth::routes();
+Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Admin
+Route::group(['prefix' => 'admin' ,'middleware' => ['auth']], function () {
+    Route::get('/', 'HomeController@index')->name('home');
+});
+
+
+//Authentication
+Route::get('bejelentkezes', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('bejelentkezes', 'Auth\LoginController@login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+// Password Reset Routes...
+Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+
+Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+
+Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+
+Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('password.update');
+
