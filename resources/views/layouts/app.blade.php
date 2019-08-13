@@ -8,7 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- Change Title and Meta tags-->
-        <title>Mooz App</title>
+        <title>moOz - Egy mosollyal közelebb hozunk!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon -->
