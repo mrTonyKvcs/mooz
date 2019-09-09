@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-7 col-lg-7 text-center text-md-left wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                            <h1  class="text-white text-capitalize strong mt-0">Mi már tudjuk, ma kivel ismerkedsz.</h1>
+                            <h1  class="text-white text-capitalize strong mt-0">Ismerkedj élőben és építs közösséget percek alatt!</h1>
                             <p class="lead text-white">Nincsen randid péntekre? Hiányzik valaki egy jó társashoz? Biliárdoznál, vagy épp az
                             élet értelmén merengenél valakivel? Mázlid van: pár kattintásra vagy attól, hogy azt
                             csinálhasd, amihez kedved van, azzal, akivel biztosan élvezni is fogod. Ráadásul
@@ -336,56 +336,36 @@
     <!-- End App Screenshorts -->
 
     <!-- Section TESTIMONIAL -->
-    {{--<section class="parallax-fixed testimonial black-overlay" id="testimonial" data-stellar-background-ratio="0.5">--}}
-        {{--<div class="container">--}}
-            {{--<div class="row">--}}
-                {{--<div class="col-lg-8 ml-auto mr-auto text-center text-white">--}}
-                    {{--<h2 class="text-uppercase mb-md-4">Our Testimonials</h2>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--<div class="owl-carousel">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-lg-10 mr-auto ml-auto text-white wow fadeIn" data-wow-duration=".4s" data-wow-delay=".2s">--}}
-                        {{--<div class="owl-carousel owl-theme owl-testimonials-full">--}}
-                            {{--<div class="item text-center text-md-left">--}}
-                                {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
-                                    {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
-                                    {{--</div>--}}
-                                {{--<div class="testimonial-full">--}}
-                                    {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
-                                    {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
-                                    {{--<p><small>CEO Google Inc.</small></p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--<!--/item-->--}}
-                            {{--<div class="item text-center text-md-left">--}}
-                                {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
-                                    {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
-                                    {{--</div>--}}
-                                {{--<div class="testimonial-full">--}}
-                                    {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
-                                    {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
-                                    {{--<p><small>CEO Google Inc.</small></p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--<!--/item-->--}}
-                            {{--<div class="item text-center text-md-left">--}}
-                                {{--<div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">--}}
-                                    {{--<img src="assets/images/client.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="170">--}}
-                                    {{--</div>--}}
-                                {{--<div class="testimonial-full">--}}
-                                    {{--<p class="lead">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>--}}
-                                    {{--<h5 class="mb-0 text-white">Elliot Doessimo</h5>--}}
-                                    {{--<p><small>CEO Google Inc.</small></p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--<!--/item-->--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</section>--}}
+    <section class="parallax-fixed testimonial black-overlay" id="testimonial" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto text-center text-white">
+                    <h2 class="text-uppercase mb-md-4">Our Testimonials</h2>
+                    </div>
+                </div>
+            <div class="owl-carousel">
+                <div class="row">
+                    <div class="col-lg-10 mr-auto ml-auto text-white wow fadeIn" data-wow-duration=".4s" data-wow-delay=".2s">
+                        <div class="owl-carousel owl-theme owl-testimonials-full">
+                            @foreach($testimonials as $person)
+                                <div class="item text-center text-md-left">
+                                    <div class="clearfix testimonial-author ml-md-0 ml-auto mr-md-0 mr-auto">
+                                        <img src="{{ $person['image_path'] }}" alt="{{ $person['name'] }} moOz App" class="img-fluid float-left mr-3 rounded-circle" width="170">
+                                    </div>
+                                    <div class="testimonial-full">
+                                        <p class="lead">"{{ $person['description'] }}"</p>
+                                        <h5 class="mb-0 text-white">{{ $person['name'] }}</h5>
+                                        <p>{{ $person['social_name'] }}</p>
+                                    </div>
+                                </div>
+                                @endforeach
+                            <!--/item-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     <!-- TESTIMONIAL END -->
 
     <!-- Section FAQs -->

@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('pages.index');
+    $testimonials = \Config::get('testimonial');
+
+    return view('pages.index', compact('testimonials'));
 });
 
 Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
