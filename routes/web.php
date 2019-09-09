@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
 
+//Newsletters
+Route::post('hirlevel', [ 'as' => 'newsletter.subscribe', 'uses' => 'NewslettersController@subscribe' ]);
+
 //Admin
 Route::group(['prefix' => 'admin' ,'middleware' => ['auth']], function () {
     Route::get('/', 'HomeController@index')->name('home');

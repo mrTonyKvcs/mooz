@@ -385,7 +385,8 @@
                             </div>
                             <div class="collapse show" id="collapse2" style="">
                                 <div class="card-body">
-                                    <p>Nem. Egyrészt nem csak randit szervezhetsz - ugyanúgy társaságra találhatsz egy jó biliárdozáshoz vagy éppen összehozhatsz egy jó társaságot egy bulihoz. És ezt helyben, valós időben teheted meg. Nincs várakozás, ghosting, feszengés vagy bizonytalanság. Ez az, ami az új szárnysegédeddé tesz minket.</p>
+                                    <p>Nem. A moOz nem társkereső, hanem elsősorban közösségépítő app. Egyrészt messze nem csak randit szervezhetsz - ugyanúgy társaságra találhatsz egy jó biliárdozáshoz vagy éppen összehozhatsz egy jó társaságot egy bulihoz. És ezt helyben, valós időben teheted meg. Nincs várakozás, faképnél hagyás, feszengés vagy bizonytalanság. Ez az, ami az új szárnysegédeddé tesz minket.
+</p>
                                 </div>
                             </div>
                         </div>
@@ -595,15 +596,16 @@
                     <p>Ha feliratkozol a hírlevelünkre, mindig szólunk, amikor különlegesen jó program ajánlkozik vagy éppen új tudással bővítjük a blogot. Nem bombázunk spammel: csak olyasmit küldünk, ami téged érdekel.</p>
                     <div class="row">
                         <div class="col-md-8 col-lg-8 ml-auto mr-auto">
-                            <form action="mailchimp/process-subscribe.php" id="mc-form" method="post">
+                            <form action="{{ route('newsletter.subscribe') }}" id="mc-form" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-12 col-lg-8 px-md-0 px-lg-2">
                                         <div class="form-group">
-                                            <input type="text" name="mc_email" required="required" class="form-control" placeholder="E-mail Címe">
+                                            <input type="text" name="email" required="required" class="form-control" placeholder="E-mail Címe" required>
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-4 px-md-0">
-                                        <input type="submit" name="mc_add" class="btn btn-cta btn-sm mb-4" value="Feliratkozás">
+                                        <input type="submit" class="btn btn-cta btn-sm mb-4" value="Feliratkozás">
                                     </div>
                                 </div>
                                 <div class="text-center" id="mc-result"></div>
