@@ -9,11 +9,9 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-7 col-lg-7 text-center text-md-left wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                            <h1  class="text-white text-capitalize strong mt-0">Ismerkedj élőben és építs közösséget percek alatt!</h1>
-                            <p class="lead text-white">Nincsen randid péntekre? Hiányzik valaki egy jó társashoz? Biliárdoznál, vagy épp az
-                            élet értelmén merengenél valakivel? Mázlid van: pár kattintásra vagy attól, hogy azt
-                            csinálhasd, amihez kedved van, azzal, akivel biztosan élvezni is fogod. Ráadásul
-                            helybe visszük neked a társaságot.</p>
+                            <h1  class="text-white text-capitalize strong mt-0">Mi már tudjuk, mi a mai programod.</h1>
+                            <p class="lead text-white">Randipartner kellene, vagy egy baráti beszélgetés? Biliárdoznál, vagy épp az élet értelmén merengenél valakivel? Mázlid van: pár kattintásra vagy attól, hogy azt csinálhasd, amihez kedved van, azzal, akivel biztosan élvezni is fogod. Ráadásul helybe visszük neked a társaságot.
+</p>
                             <a href="#hogy-mukodik" class="btn btn-light btn-xl btn-rounded mr-md-4 mb-4 mb-md-0 align-top">HOGY MŰKÖDIK?</a>
                             <a href="#letoltes" class="btn btn-outline-light btn-xl btn-rounded mb-4 mb-md-0 align-top">IDE VELE!</a>
                         </div>
@@ -34,7 +32,8 @@
             <div class="row">
                 <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
                     <h2 class="text-uppercase">Miért mi leszünk a szárnysegéded?</h2>
-                    <p>Magát a társaságot kapod meg: hús-vér embereket, akik ugyanott járnak mint te, és ugyanolyan programra vágynak. Percek alatt a találkozásig juttatunk egy új baráttal vagy akár az esti randiddal.</p>
+                    <p>Nem lehetőséget, hanem társaságot kapsz: hús-vér embereket, akik ugyanott járnak ahol te, és ugyanolyan programra vágynak. Percek alatt a találkozásig juttatunk egy új baráttal, egy bulipartnerrel vagy akár az esti randiddal.
+</p>
                 </div>
             </div>
             <div class="row">
@@ -99,9 +98,7 @@
             <div class="row">
                 <div class="col-lg-8 ml-auto mr-auto text-center text-white wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".1s">
                     <h2 class="text-white text-uppercase">Mi ez?</h2>
-                    <p>Ha azt írnánk, a MOOZ egy ismerkedős app, messze alábecsülnénk. A MOOZ valóban
-                    egy szárnysegéd, ami valós időben megmondja, hogy kivel és hol találkozhatsz, és
-                    még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
+                    <p>Ha azt írnánk, a moOz egy ismerkedős app, messze alábecsülnénk. A moOz valóban egy szárnysegéd, ami valós időben megmondja, hogy kivel és hol találkozhatsz, és még azt is, mit kell mondanod, hogy jól induljon az ismeretség.</p>
                 </div>
             </div>
             <div class="row align-items-center">
@@ -253,8 +250,7 @@
                         <i>
                             <img class="icon mr-2" src="/images/icons/aterkepen.svg" alt="" style="width: auto;">
                         </i>
-                        <p>A térképen láthatod, a városban ki merre jár és mit csinálna éppen - így nem kell vakon elindulnod, pontosan tudni fogod, hová érdemes menned, akár egy jó
-                        beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
+                        <p>A térképen láthatod, a városban merre vannak a legtöbben - így nem kell vakon elindulnod, pontosan tudni fogod, hová érdemes menned, akár egy jó beszélgetésre, egy társasozásra vagy éppen flörtre vágysz.</p>
                     </div>
                     <p><a href="#letoltes" class="btn btn-primary btn-lg">RÖGTÖN KIPRÓBÁLOM</a></p>
                 </div>
