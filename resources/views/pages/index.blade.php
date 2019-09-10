@@ -468,153 +468,154 @@
                     <p>Írj nekünk egy emailt ide: <a href="mailto: info@moozapp.com">info@moozapp.com</a >vagy írj ránk <a href="https://www.facebook.com/moozforzoom" target="_blank">Facebookon chaten</a> és segítünk lendületet venni!</p>
                 </div>
                 <div class="col-md-12 col-lg-3 ml-auto mr-auto mb-4 text-center text-lg-right">
-                    <a href="#kapcsolat" class="btn btn-cta btn-xl btn-rounded">Üzenet Küldése</a>
+                    <a href="mailto: info@moozapp.com" class="btn btn-cta btn-xl btn-rounded">Üzenet Küldése</a>
+                    {{--<a href="#kapcsolat" class="btn btn-cta btn-xl btn-rounded">Üzenet Küldése</a>--}}
                 </div>
             </div>
         </div>
     </section>
     <!-- End CTA -->
     <!-- Section Blogs -->
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 ml-auto mr-auto text-center">
-                    <h2 class="text-uppercase">Blog</h2>
-                    <p>Hogyan viselkedj, ha leszólítasz valakit? Mi van, ha kínos csend áll be? Mit mondd el a testbeszéded, mielőtt megszólalnál? Nem csajozni-pasizni tanítunk, ne aggódj. De azt elmondjuk, hogyan lehetsz magabiztos ismerkedés közben.</p>
-                </div>
-            </div>
-            <div class="blog-slider center-align owl-carousel owl-theme">
-                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                    <div class="post-block">
-                        <a href="#">
-                            <img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-35.jpg" alt="" />
-                        </a>
-                        <div class="post-meta">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                            </ul>
-                        </div>
-                        <h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>
-                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
-                    </div>
-                </div>
-                <div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">
-                    <div class="post-block">
-                        <a href="#">
-                            <img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-352.jpg" alt="" />
-                        </a>
-                        <div class="post-meta">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                            </ul>
-                        </div>
-                        <h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>
-                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
-                    </div>
-                </div>
-                <div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">
-                    <div class="post-block">
-                        <a href="#">
-                            <img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-351.jpg" alt="" />
-                        </a>
-                        <div class="post-meta">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                            </ul>
-                        </div>
-                        <h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>
-                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
-                    </div>
-                </div>
-                <div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                    <div class="post-block">
-                        <a href="#">
-                            <img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-351.jpg" alt="" />
-                        </a>
-                        <div class="post-meta">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>
-                            </ul>
-                        </div>
-                        <h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>
-                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
-                    </div>
-                </div>
+    {{--<section id="blog">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-lg-8 ml-auto mr-auto text-center">--}}
+                    {{--<h2 class="text-uppercase">Blog</h2>--}}
+                    {{--<p>Hogyan viselkedj, ha leszólítasz valakit? Mi van, ha kínos csend áll be? Mit mondd el a testbeszéded, mielőtt megszólalnál? Nem csajozni-pasizni tanítunk, ne aggódj. De azt elmondjuk, hogyan lehetsz magabiztos ismerkedés közben.</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="blog-slider center-align owl-carousel owl-theme">--}}
+                {{--<div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">--}}
+                    {{--<div class="post-block">--}}
+                        {{--<a href="#">--}}
+                            {{--<img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-35.jpg" alt="" />--}}
+                        {{--</a>--}}
+                        {{--<div class="post-meta">--}}
+                            {{--<ul class="list-inline mb-0">--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
+                        {{--<h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>--}}
+                        {{--<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="item wow fadeIn" data-wow-duration=".3s" data-wow-delay=".2s">--}}
+                    {{--<div class="post-block">--}}
+                        {{--<a href="#">--}}
+                            {{--<img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-352.jpg" alt="" />--}}
+                        {{--</a>--}}
+                        {{--<div class="post-meta">--}}
+                            {{--<ul class="list-inline mb-0">--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
+                        {{--<h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>--}}
+                        {{--<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="item wow fadeIn" data-wow-duration=".4s" data-wow-delay=".3s">--}}
+                    {{--<div class="post-block">--}}
+                        {{--<a href="#">--}}
+                            {{--<img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-351.jpg" alt="" />--}}
+                        {{--</a>--}}
+                        {{--<div class="post-meta">--}}
+                            {{--<ul class="list-inline mb-0">--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
+                        {{--<h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>--}}
+                        {{--<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="item wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">--}}
+                    {{--<div class="post-block">--}}
+                        {{--<a href="#">--}}
+                            {{--<img class="img-fluid w-100" src="assets/images/Rounded-Rectangle-351.jpg" alt="" />--}}
+                        {{--</a>--}}
+                        {{--<div class="post-meta">--}}
+                            {{--<ul class="list-inline mb-0">--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> John</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-calendar"></i> 20 Sep. 2017</a></li>--}}
+                                {{--<li class="list-inline-item"><a href="#"><i class="fa fa-comments"></i> 20 Comments</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
+                        {{--<h6 class="mb-3 mt-3"><a href="#">Aenean leo ligula, porttitor consequat</a></h6>--}}
+                        {{--<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-            </div>
-        </div>
-    </section>
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <!-- End Blogs -->
     <!-- Section Contact -->
-    <section id="kapcsolat" class="bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp">
-                    <h2 class="text-white text-uppercase">Kérdésed van?</h2>
-                    <p>Add meg a neved, e-mail-címed és üzenj nekünk azonnal: lelkesen válaszolunk, akár az appról kérdeznél, a tartalomról vagy éppen van egy történeted, amiről mindenképpen tudnunk kell!</p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-12 col-xl-10 mr-auto ml-auto">
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-6 wow fadeInUp">
-                            <form id="contact-form" action="contact-form/contact.php" method="post">
-                                <div class="form-group">
-                                    <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Teljes Neve" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="contact_email" id="contact_email" class="form-control" placeholder="E-mail Címe" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="contact_message" id="contact_message" placeholder="Üzenete" rows="5" cols="4" required></textarea>
-                                </div>
-                                <div class="d-flex justify-content-start mb-4"><input type="submit" name="contact_submit" class="btn btn-cta text-uppercase col-lg-12 btn-xl" value="Üzenet Küldése"></div>
-                                <div id="contact-result"></div>
-                            </form>
-                        </div>
+    {{--<section id="kapcsolat" class="bg-dark text-white">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-lg-8 ml-auto mr-auto text-center wow fadeInUp">--}}
+                    {{--<h2 class="text-white text-uppercase">Kérdésed van?</h2>--}}
+                    {{--<p>Add meg a neved, e-mail-címed és üzenj nekünk azonnal: lelkesen válaszolunk, akár az appról kérdeznél, a tartalomról vagy éppen van egy történeted, amiről mindenképpen tudnunk kell!</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="row align-items-center">--}}
+                {{--<div class="col-md-12 col-xl-10 mr-auto ml-auto">--}}
+                    {{--<div class="row justify-content-center">--}}
+                        {{--<div class="col-md-6 col-lg-6 wow fadeInUp">--}}
+                            {{--<form id="contact-form" action="contact-form/contact.php" method="post">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Teljes Neve" required>--}}
+                                {{--</div>--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<input type="text" name="contact_email" id="contact_email" class="form-control" placeholder="E-mail Címe" required>--}}
+                                {{--</div>--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<textarea class="form-control" name="contact_message" id="contact_message" placeholder="Üzenete" rows="5" cols="4" required></textarea>--}}
+                                {{--</div>--}}
+                                {{--<div class="d-flex justify-content-start mb-4"><input type="submit" name="contact_submit" class="btn btn-cta text-uppercase col-lg-12 btn-xl" value="Üzenet Küldése"></div>--}}
+                                {{--<div id="contact-result"></div>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <!-- End Contact -->
     <!-- Section Newsletter -->
-    <section class="text-white" style="background: #000;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 ml-auto mr-auto wow fadeInUp text-center text-white">
-                    <h2 class="text-white text-uppercase">Ne maradj le ma sem… </h2>
-                    <p>Ha feliratkozol a hírlevelünkre, mindig szólunk, amikor különlegesen jó program ajánlkozik vagy éppen új tudással bővítjük a blogot. Nem bombázunk spammel: csak olyasmit küldünk, ami téged érdekel.</p>
-                    <div class="row">
-                        <div class="col-md-8 col-lg-8 ml-auto mr-auto">
-                            <form action="{{ route('newsletter.subscribe') }}" id="mc-form" method="post">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-12 col-lg-8 px-md-0 px-lg-2">
-                                        <div class="form-group">
-                                            <input type="text" name="email" required="required" class="form-control" placeholder="E-mail Címe" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-4 px-md-0">
-                                        <input type="submit" class="btn btn-cta btn-sm mb-4" value="Feliratkozás">
-                                    </div>
-                                </div>
-                                <div class="text-center" id="mc-result"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="text-white" style="background: #000;">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row align-items-center">--}}
+                {{--<div class="col-lg-8 ml-auto mr-auto wow fadeInUp text-center text-white">--}}
+                    {{--<h2 class="text-white text-uppercase">Ne maradj le ma sem… </h2>--}}
+                    {{--<p>Ha feliratkozol a hírlevelünkre, mindig szólunk, amikor különlegesen jó program ajánlkozik vagy éppen új tudással bővítjük a blogot. Nem bombázunk spammel: csak olyasmit küldünk, ami téged érdekel.</p>--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-md-8 col-lg-8 ml-auto mr-auto">--}}
+                            {{--<form action="{{ route('newsletter.subscribe') }}" id="mc-form" method="post">--}}
+                                {{--@csrf--}}
+                                {{--<div class="row">--}}
+                                    {{--<div class="col-12 col-lg-8 px-md-0 px-lg-2">--}}
+                                        {{--<div class="form-group">--}}
+                                            {{--<input type="text" name="email" required="required" class="form-control" placeholder="E-mail Címe" required>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-12 col-lg-4 px-md-0">--}}
+                                        {{--<input type="submit" class="btn btn-cta btn-sm mb-4" value="Feliratkozás">--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="text-center" id="mc-result"></div>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <!-- End Newsletter -->
 @endsection
