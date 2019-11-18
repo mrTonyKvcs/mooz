@@ -17,14 +17,17 @@ Route::get('/', function () {
     return view('pages.index', compact('testimonials'));
 });
 
-Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
+Route::get('blog', ['as' => 'articles.index', 'uses' => 'ArticlesController@index']);
+Route::get('blog/bejegyzes', ['as' => 'articles.show', 'uses' => 'ArticlesController@show']);
 
 //Newsletters
 Route::post('hirlevel', [ 'as' => 'newsletter.subscribe', 'uses' => 'NewslettersController@subscribe' ]);
 
 //Admin
 Route::group(['prefix' => 'admin' ,'middleware' => ['auth']], function () {
-    Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/', ['as' => 'admin.index', 'uses' => 'AdminController@index']);
+    Route::get('blog-bejegyzesek', [ 'as' => 'admin.articles', 'uses' => 'Admin\ArticlesController@index' ]);
+    Route::get('uj-blog-bejegyzes-letrehozasa', [ 'as' => 'admin.articles.create', 'uses' => 'Admin\ArticlesController@create' ]);
 });
 
 

@@ -44,7 +44,7 @@
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#hogy-mukodik">Hogy működik?</a></li>
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#nezz-bele">NÉZZ BELE!</a></li>
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#gyakran-ismetelt-kerdesek">GY.I.K.</a></li>
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#blog">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ route('articles.index') }}">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#kapcsolat">kapcsolat </a></li>
                             </ul>
                             <a href="#letoltes" class="btn btn-light btn-rounded d-none d-lg-block nav-link">LETÖLTÉS</a>
