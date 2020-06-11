@@ -10,22 +10,26 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-    $testimonials = \Config::get('testimonial');
 
-    return view('pages.index', compact('testimonials'));
+    return view('pages.cooming-soon');
 });
 
-Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
+//Route::get('/', function () {
+    //$testimonials = \Config::get('testimonial');
 
-//Newsletters
-Route::post('hirlevel', [ 'as' => 'newsletter.subscribe', 'uses' => 'NewslettersController@subscribe' ]);
+    //return view('pages.index', compact('testimonials'));
+//});
 
-//Admin
-Route::group(['prefix' => 'admin' ,'middleware' => ['auth']], function () {
-    Route::get('/', 'HomeController@index')->name('home');
-});
+//Route::get('blog', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
+
+////Newsletters
+//Route::post('hirlevel', [ 'as' => 'newsletter.subscribe', 'uses' => 'NewslettersController@subscribe' ]);
+
+////Admin
+//Route::group(['prefix' => 'admin' ,'middleware' => ['auth']], function () {
+    //Route::get('/', 'HomeController@index')->name('home');
+//});
 
 
 //Authentication

@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Mixins
+@import "mixins";
+
+// Icons
+//@import '@fortawesome/fontawesome-free'
+
+//Components
+@import 'components/custom-box';
+@import 'components/custom-paragraph';
+
+label {
+    text-transform: uppercase;
+}
+
+.form-control {
+    border-radius: 0;
+}

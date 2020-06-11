@@ -1,0 +1,51 @@
+.c-box {
+    @include m(gray) {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #f5f3f4;
+        border-bottom: 5px solid #fc1e51;
+        padding: 40px 30px 40px 30px;
+        font-size: 20px;
+        color: #0d182b;
+        line-height: 1.8;
+
+        span {
+            background-color: transparent;
+        }
+    }
+
+    @include m(purple) {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #d7306d;
+        border-bottom: 15px solid #ffc852;
+        padding: 40px 30px;
+        font-size: 20px;
+        color: #f7f9fc;
+        line-height: 1.8;
+    }
+
+    @include m(purple-line) {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #f5f3f4;
+        border-bottom: 15px solid #d7306d;
+        padding: 40px 30px 40px 30px;
+        font-size: 26px;
+        font-weight:600;
+        color: #0d182b;
+        line-height: 1.8;
+    }
+}
